@@ -11,11 +11,16 @@ if (!require("pacman")) install.packages("pacman")
 pacman::p_load(knitr)
 ```
 
+# Header 1
 
-###
+## Header 2
+
+### Header 3
 
 ```{r, echo=FALSE, fig.cap="Hi! I am Estrella.", out.width = '30%', fig.align='center'}
-knitr::include_graphics("my_smiling_face_here.jpg")
+knitr::include_graphics(
+  here::here(
+    "./images/01.png"))
 ```
    
 <h6 style="text-align: center;" markdown="1">
