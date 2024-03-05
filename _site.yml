@@ -1,5 +1,5 @@
 name: 
-author: Biplabendu Das
+author: Anthony Mirabito
 output_dir: docs
 output:
   html_document:
@@ -23,6 +23,10 @@ navbar:
   # - text: Resume
   #   href: "./resume/resume_john_doe.pdf"
   #   icon: fa-id-card
+  text: Demo Analyses
+  href: demo_analyses.html
+  icon: fa-poo
+
   right:
   - icon: fa-twitter
     href: https://twitter.com/another_ant_guy
